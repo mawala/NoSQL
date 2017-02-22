@@ -1,2 +1,6 @@
-# NoSQL
-Projekt z Technologii NoSQL
+# Projekt z Technologii NoSQL
+
+Todo:
+- [ ] projekt
+- [ ] _xxx.mb.html_
+
