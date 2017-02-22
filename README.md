@@ -2,5 +2,5 @@
 
 Todo:
 - [ ] projekt
-- [ ] _xxx.mb.html_
+- [ ] _xxx.nb.html_
 
