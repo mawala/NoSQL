@@ -125,7 +125,8 @@ $(document).ready(function () {
 <p>Dane zostały pobrane ze strony <a href="http://www.vdstech.com/world-data.aspx" class="uri">http://www.vdstech.com/world-data.aspx</a> oraz wstępnie przetworzone przy użyciu <a href="http://ogre.adc4gis.com/" class="uri">http://ogre.adc4gis.com/</a>.</p>
 <p><strong>Lotniska</strong></p>
 <p>Przy użyciu dwóch w/w stron otrzymano plik <em>airports.geojson</em>:</p>
-<script src="data:text/javascript;charset=utf-8,document%2Ewrite%28%22%3Ciframe%20height%3D%5C%27420%5C%27%20width%3D%5C%27620%5C%27%20frameborder%3D%5C%270%5C%27%20src%3D%5C%27https%3A%2F%2Frender%2Egithubusercontent%2Ecom%2Fview%2Fgeojson%3Furl%3Dhttps%3A%2F%2Fraw%2Egithubusercontent%2Ecom%2Fmawala%2Fprojekty%2Dnosql%2Fmaster%2Fairports%2Egeojson%5C%27%20title%3D%5C%27airports%2Egeojson%5C%27%3E%3C%5C%2Fiframe%3E%22%29%0A"></script>
+<script src="https://embed.github.com/view/geojson/mawala/projekty-nosql/master/airports.geojson"></script>
+  
 <p>Zapisano dane do bazy danych <em>test</em> do kolekcji <em>airports</em></p>
 <pre class="bash"><code>jq &quot;.features&quot; airports.geojson &gt; airportlist.geojson
 mongoimport --drop -d test -c airports --jsonArray &lt; airportlist.geojson</code></pre>
@@ -140,7 +141,8 @@ mongoimport --drop -d test -c airports --jsonArray &lt; airportlist.geojson</cod
 <p>oraz przekształcono go w obiekty GeoJSON</p>
 <pre class="bash"><code>type file.json | findstr /v MongoDB | findstr /v mongodb | C:\progra~1\Jq\jq {type:\&quot;FeatureCollection\&quot;,features:.} &gt; airportclose.geojson</code></pre>
 I tak otrzymano plik <em>airportclose.geojson</em>:
-<script src="data:text/javascript;charset=utf-8,document%2Ewrite%28%22%3Ciframe%20height%3D%5C%27420%5C%27%20width%3D%5C%27620%5C%27%20frameborder%3D%5C%270%5C%27%20src%3D%5C%27https%3A%2F%2Frender%2Egithubusercontent%2Ecom%2Fview%2Fgeojson%3Furl%3Dhttps%3A%2F%2Fraw%2Egithubusercontent%2Ecom%2Fmawala%2Fprojekty%2Dnosql%2Fmaster%2Fairportsclose%2Egeojson%5C%27%20title%3D%5C%27airportsclose%2Egeojson%5C%27%3E%3C%5C%2Fiframe%3E%22%29%0A"></script>
+<script src="https://embed.github.com/view/geojson/mawala/projekty-nosql/master/airportsclose.geojson"></script>
+  
 </div>
 
 
