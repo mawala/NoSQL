@@ -1,0 +1,49 @@
+---
+title: "Technologie NoSQL"
+output: html_document
+---
+
+### Zadanie GEO
+
+Dane zosta³y pobrane ze strony <http://www.vdstech.com/world-data.aspx> oraz wstêpnie przetworzone przy u¿yciu <http://ogre.adc4gis.com/>.
+
+**Lotniska**
+
+Przy u¿yciu dwóch w/w stron otrzymano plik *airports.geojson*:
+
+<script src="https://embed.github.com/view/geojson/mawala/projekty-nosql/master/data/airports.geojson"></script>
+
+Zapisano dane do bazy danych *test* do kolekcji *airports*
+
+```bash
+jq ".features" airports.geojson > airportlist.geojson
+mongoimport --drop -d test -c airports --jsonArray < airportlist.geojson
+```
+
+Nastêpnie usuniêto jedno pole oraz zmieniono nazwê innego (dla u³atwienia pracy):
+
+```mongodb
+db.airports.updateMany({type: "Feature"}, {$unset: {"properties.USE":""}})
+```
+
+oraz dodano indeks, by móc u¿ywaæ *geospatial queries*.
+
+```mongodb
+db.airports.ensureIndex({"geometry" : "2dsphere"})
+```
+
+W pliku o nazwie *command.js* zapisano komendê wyszukania 600 lotnisk, które znajduj¹ siê najbli¿ej œrodka Europy, wspó³rzêdne (53° 34' 39” N, 23° 6' 22” E)
+```
+printjson( db.airports.find({ "geometry": {$near: {$geometry: {type: "Point", coordinates: [23.106111, 53.5775]}}}}, {_id: 0}).limit(600).toArray() )
+```
+Nastêpnie wykonano t¹ komendê, zapisuj¹c wynik w pliku *file.json*
+```bash
+mongo test command.js > file.json
+```
+oraz przekszta³cono go w obiekty GeoJSON
+```bash
+type file.json | findstr /v MongoDB | findstr /v mongodb | C:\progra~1\Jq\jq {type:\"FeatureCollection\",features:.} > airportclose.geojson
+```
+I tak otrzymano plik *airportclose.geojson*:
+<script src="https://embed.github.com/view/geojson/mawala/projekty-nosql/master/data/airportsclose.geojson"></script>
+
