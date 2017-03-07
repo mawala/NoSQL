@@ -1,0 +1,805 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "UMMG",
+        "NAME": "GRODNO",
+        "USE_DESC": "Civilian/Public",
+        "ELEVATION": 135
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.05500030517578,
+          53.60166549682617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EPSY",
+        "NAME": "SZYMANY",
+        "USE_DESC": "Other",
+        "ELEVATION": 141
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.937692642211914,
+          53.48185729980469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EYKA",
+        "NAME": "KAUNAS",
+        "USE_DESC": "Civilian/Public",
+        "ELEVATION": 78
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.084781646728516,
+          54.96392059326172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "UMBB",
+        "NAME": "BREST",
+        "USE_DESC": "Civilian/Public",
+        "ELEVATION": 142
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.898332595825195,
+          52.108333587646484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EYVI",
+        "NAME": "VILNIUS",
+        "USE_DESC": "Civilian/Public",
+        "ELEVATION": 196
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.28583335876465,
+          54.63425064086914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EPWA",
+        "NAME": "OKECIE",
+        "USE_DESC": "Civilian/Public",
+        "ELEVATION": 110
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.967222213745117,
+          52.16583251953125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "UMKK",
+        "NAME": "KHRABROVO",
+        "USE_DESC": "Civilian/Public",
+        "ELEVATION": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.592639923095703,
+          54.89005661010742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "UM",
+        "NAME": "CHKALOVSK",
+        "USE_DESC": "Other",
+        "ELEVATION": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.397014617919922,
+          54.7665901184082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EPDE",
+        "NAME": "DEBLIN",
+        "USE_DESC": "Other",
+        "ELEVATION": 118
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.893611907958984,
+          51.551387786865234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EPSO",
+        "NAME": "SOCHACZEW",
+        "USE_DESC": "Other",
+        "ELEVATION": 78
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.29277801513672,
+          52.198612213134766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EYPN",
+        "NAME": "PAJUOSTIS",
+        "USE_DESC": "Military",
+        "ELEVATION": 57
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.460277557373047,
+          55.72916793823242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EYSA",
+        "NAME": "SIAULIAI",
+        "USE_DESC": "Civilian/Public",
+        "ELEVATION": 135
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.394975662231445,
+          55.89388656616211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "UMMM",
+        "NAME": "MINSK 1",
+        "USE_DESC": "Civilian/Public",
+        "ELEVATION": 228
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.541667938232422,
+          53.8650016784668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EYPA",
+        "NAME": "PALANGA INTL",
+        "USE_DESC": "Civilian/Public",
+        "ELEVATION": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.094200134277344,
+          55.97317886352539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EP",
+        "NAME": "SPALA GLINNIK NOWY",
+        "USE_DESC": "Other",
+        "ELEVATION": 173
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.096513748168945,
+          51.58388137817383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EPTO",
+        "NAME": "TORUN",
+        "USE_DESC": "Other",
+        "ELEVATION": 49
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.545894622802734,
+          53.02920913696289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EPGD",
+        "NAME": "REBIECHOWO",
+        "USE_DESC": "Other",
+        "ELEVATION": 148
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.466222763061523,
+          54.377567291259766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EP",
+        "NAME": "BABIE DOLY",
+        "USE_DESC": "Other",
+        "ELEVATION": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.517194747924805,
+          54.57969284057617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EPLL",
+        "NAME": "LUBLINEK",
+        "USE_DESC": "Other",
+        "ELEVATION": 184
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.398056030273438,
+          51.72194290161133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "UMMS",
+        "NAME": "MINSK 2",
+        "USE_DESC": "Civilian/Public",
+        "ELEVATION": 203
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.030731201171875,
+          53.882469177246094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EPBY",
+        "NAME": "SZWEDEROWO",
+        "USE_DESC": "Joint Military/Civilian",
+        "ELEVATION": 71
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9777774810791,
+          53.0966682434082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EVLA",
+        "NAME": "LIEPAJA",
+        "USE_DESC": "Civilian/Public",
+        "ELEVATION": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.09697151184082,
+          56.51750183105469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EPLB",
+        "NAME": "CEWICE",
+        "USE_DESC": "Other",
+        "ELEVATION": 164
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.765277862548828,
+          54.41638946533203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EVRA",
+        "NAME": "RIGA",
+        "USE_DESC": "Civilian/Public",
+        "ELEVATION": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.971111297607422,
+          56.92361068725586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EPML",
+        "NAME": "MIELEC",
+        "USE_DESC": "Other",
+        "ELEVATION": 167
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.46213150024414,
+          50.32227325439453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "UKLR",
+        "NAME": "ROVNO",
+        "USE_DESC": "Other",
+        "ELEVATION": 229
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.145832061767578,
+          50.600833892822266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EPRZ",
+        "NAME": "JASIONKA",
+        "USE_DESC": "Other",
+        "ELEVATION": 210
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.018888473510742,
+          50.11000061035156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EPCH",
+        "NAME": "RUDNIKI",
+        "USE_DESC": "Other",
+        "ELEVATION": 262
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.204721450805664,
+          50.8849983215332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EPSK",
+        "NAME": "REDZIKOWO",
+        "USE_DESC": "Military",
+        "ELEVATION": 67
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.107500076293945,
+          54.47888946533203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EP",
+        "NAME": "BEDNARY",
+        "USE_DESC": "Military",
+        "ELEVATION": 103
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.218778610229492,
+          52.53438949584961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "UKLL",
+        "NAME": "LVIV",
+        "USE_DESC": "Joint Military/Civilian",
+        "ELEVATION": 326
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.955833435058594,
+          49.8125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EPPI",
+        "NAME": "PILA",
+        "USE_DESC": "Other",
+        "ELEVATION": 78
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.712499618530273,
+          53.16999816894531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "UK",
+        "NAME": "CHERLYANE",
+        "USE_DESC": "Other",
+        "ELEVATION": 272
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.669166564941406,
+          49.73777770996094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EPKS",
+        "NAME": "KRZESINY",
+        "USE_DESC": "Other",
+        "ELEVATION": 80
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.96869468688965,
+          52.330665588378906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EP",
+        "NAME": "BIRCZA",
+        "USE_DESC": "Other",
+        "ELEVATION": 129
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.513288497924805,
+          49.6566162109375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EPPO",
+        "NAME": "LAWICA",
+        "USE_DESC": "Other",
+        "ELEVATION": 93
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.82638931274414,
+          52.421112060546875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EPKT",
+        "NAME": "PYRZOWICE",
+        "USE_DESC": "Other",
+        "ELEVATION": 303
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.079999923706055,
+          50.47416687011719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EPKK",
+        "NAME": "BALICE JPS INTL",
+        "USE_DESC": "Joint Military/Civilian",
+        "ELEVATION": 241
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.78472137451172,
+          50.07777786254883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EPKO",
+        "NAME": "ZEGRZE POMORSKIE",
+        "USE_DESC": "Military",
+        "ELEVATION": 75
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.263805389404297,
+          54.04230499267578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EPSN",
+        "NAME": "SWIDWIN",
+        "USE_DESC": "Other",
+        "ELEVATION": 117
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.828056335449219,
+          53.790557861328125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EP",
+        "NAME": "KOLOBRZEG",
+        "USE_DESC": "Military",
+        "ELEVATION": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.686944007873535,
+          54.200721740722656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "UM",
+        "NAME": "VITEBSK",
+        "USE_DESC": "Civilian/Public",
+        "ELEVATION": 207
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.349721908569336,
+          55.12638854980469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EPWR",
+        "NAME": "STRACHOWICE",
+        "USE_DESC": "Other",
+        "ELEVATION": 123
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.885833740234375,
+          51.102779388427734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EP",
+        "NAME": "PLOTY",
+        "USE_DESC": "Other",
+        "ELEVATION": 47
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.290278434753418,
+          53.761112213134766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EPZG",
+        "NAME": "BABIMOST",
+        "USE_DESC": "Other",
+        "ELEVATION": 59
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.79861068725586,
+          52.13861083984375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EEKE",
+        "NAME": "KURESSAARE",
+        "USE_DESC": "Other",
+        "ELEVATION": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.511667251586914,
+          58.22999954223633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EPLU",
+        "NAME": "LUBIN",
+        "USE_DESC": "Other",
+        "ELEVATION": 156
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.196157455444336,
+          51.42300796508789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "UKLI",
+        "NAME": "IVANO FRANKOVSK",
+        "USE_DESC": "Civilian/Public",
+        "ELEVATION": 280
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.690277099609375,
+          48.88722229003906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "LZTT",
+        "NAME": "TATRY",
+        "USE_DESC": "Civilian/Public",
+        "ELEVATION": 718
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.241111755371094,
+          49.073612213134766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EP",
+        "NAME": "LEGNICA",
+        "USE_DESC": "Military",
+        "ELEVATION": 128
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.17822265625,
+          51.1827507019043
+        ]
+      }
+    }
+  ]
+}
