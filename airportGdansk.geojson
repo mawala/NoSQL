@@ -1,0 +1,175 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EGPM",
+        "NAME": "SCATSTA",
+        "USE": 999,
+        "USE_DESC": "Other",
+        "ELEVATION": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.299,
+          60.432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "ENDU",
+        "NAME": "BARDUFOSS",
+        "USE": 22,
+        "USE_DESC": "Joint Military/Civilian",
+        "ELEVATION": 76
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.54,
+          69.055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EFKT",
+        "NAME": "KITTILA",
+        "USE": 999,
+        "USE_DESC": "Other",
+        "ELEVATION": 196
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.848,
+          67.698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EFSO",
+        "NAME": "SODANKYLA",
+        "USE": 999,
+        "USE_DESC": "Other",
+        "ELEVATION": 183
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.618,
+          67.396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "EFKM",
+        "NAME": "KEMIJARVI",
+        "USE": 999,
+        "USE_DESC": "Other",
+        "ELEVATION": 210
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.156,
+          66.712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "ESUT",
+        "NAME": "HEMAVAN",
+        "USE": 999,
+        "USE_DESC": "Other",
+        "ELEVATION": 457
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.082,
+          65.806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "ESNX",
+        "NAME": "ARVIDSJAUR",
+        "USE": 999,
+        "USE_DESC": "Other",
+        "ELEVATION": 379
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.281,
+          65.59
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "ESPA",
+        "NAME": "KALLAX",
+        "USE": 8,
+        "USE_DESC": "Military",
+        "ELEVATION": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.123,
+          65.542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "ESNU",
+        "NAME": "UMEA",
+        "USE": 49,
+        "USE_DESC": "Civilian/Public",
+        "ELEVATION": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.282,
+          63.791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ICAO": "ESNA",
+        "NAME": "HALLVIKEN",
+        "USE": 999,
+        "USE_DESC": "Other",
+        "ELEVATION": 341
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.462,
+          63.74
+        ]
+      }
+    }
+  ]
+}
